@@ -1,0 +1,160 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    background-color: #dad0e5;
+    background-color: #eadff7;
+    /* background-color: #a99bb9; */
+    background-image: linear-gradient(180deg, #482371, #faa77a);
+    background-image: linear-gradient(180deg, rgb(72 35 113 / 60%), rgb(250 167 122 / 60%)),
+    url("../images/GriffinPixel20_6p.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-signup {
+    width: 100%;
+    max-width: 330px;
+    max-width: 460px;
+    padding: 15px;
+    margin: auto;
+    /* margin-top: 20%; */
+}
+
+.form-signup .checkbox {
+    font-weight: 400;
+}
+
+.form-signup .form-floating:focus-within {
+    z-index: 2;
+}
+
+/* .form-signup input[type="text"] */
+.form-control.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-control.middle {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+/* .form-signup input[type="email"] */
+.form-control.bottom {
+    margin-bottom: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* ---------------------- */
+.griffinpixz-logo {
+    border-radius: 18px;
+    border: 2px solid #e8b6b2;
+    border: 3px solid #877495;
+    width: 72px;
+    height: 72px;
+}
+.gp-title {
+    color: #ea3945;
+    color: #e22431;
+    color: #de1826;
+    color: #574167;
+    color: #4e385f;
+    color: #5b3975;
+    color: #54316f;
+}
+.subscribe-checkbox-text {
+    font-size: 15px;
+    color: #555555;
+    text-shadow: 0px 0px 20px rgb(249 235 227 / 60%);
+}
+.subscribe-checkbox-text .txt {
+    margin-left: 4px;
+}
+.copy {
+    font-size: 14px;
+    color: #777777;
+}
+.form-control {
+    border-radius: 0.75rem;
+}
+.btn-group-lg > .btn, .btn-lg {
+    border-radius: 0.75rem;
+}
+.btn-purple {
+    color: #fff;
+    background-color: #6b4884;
+    border-color: #6b4884;
+    background-color: #6d4f82;
+    border-color: #6d4f82;
+}
+.btn-purple:hover {
+    color: #fff;
+    background-color: #593b6d;
+    border-color: #593b6d;
+}
+.btn-check:active+.btn-purple,
+.btn-check:checked+.btn-purple,
+.btn-purple.active,
+.btn-purple:active,
+.show>.btn-purple.dropdown-toggle {
+    color: #fff;
+    background-color: #593b6d;
+    border-color: #593b6d;
+}
+.btn-purple-outline {
+    background-color: transparent;
+    border-color: #6d4f82;
+    color: #6b4884;
+}
+.btn-purple-outline:hover {
+    color: #fff;
+    background-color: #6b4884;
+    border-color: #6b4884;
+    background-color: #6d4f82;
+    border-color: #6d4f82;
+}
+.btn-check:active+.btn-purple-outline,
+.btn-check:checked+.btn-purple-outline,
+.btn-purple-outline.active,
+.btn-purple-outline:active,
+.show>.btn-purple-outline.dropdown-toggle {
+    color: #fff;
+    background-color: #593b6d;
+    border-color: #593b6d;
+}
+.form-input {
+    box-shadow: 2px 6px 40px rgb(242 242 242);
+    box-shadow: 4px 14px 30px rgb(116 104 124 / 10%);
+    border-radius: 0.75rem;
+}
+.input-icon {
+    margin-right: 8px;
+    margin-left: 2px;
+    opacity: .7;
+}
+.form-floating>label {
+    color: #6a6a6a;
+}
+
+.success .gp-title {
+    color: #166e73;
+    color: #167362;
+}
+.failure .gp-title {
+    color: #c11b27;
+    color: #bd2732;
+}
+a {
+    text-decoration: none;
+}
